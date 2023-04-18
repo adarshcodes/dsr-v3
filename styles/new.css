@@ -1,5 +1,34 @@
+:root {
+	--app-container: #f8f8fa;
+	--light-section: #fff;
+	--secondary-color: #4a4a4a;
+	--border-color: #e9ebf0;
+	--primary-green: #01362a;
+	--primary-text: #151f20;
+	--secondary-text: #858585;
+	--message-box-border: #e9ebf0;
+	--swatch_1: #01362a;
+	--swatch_2: #a7cfca;
+	--swatch_3: #018171;
+	--swatch_4: #00584e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--swatch_1);
+}
+
+p {
+	color: var(--primary-text);
+}
+
 /* cards styling */
 .card {
+	color: ;
 }
 
 /* end of cards styling */
