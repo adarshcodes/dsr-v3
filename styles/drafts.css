@@ -1,33 +1,47 @@
-:root {
-	--app-container: #f8f8fa;
-	--light-section: #fff;
-	--secondary-color: #4a4a4a;
-	--border-color: #e9ebf0;
-	--primary-green: #01362a;
-	--primary-text: #151f20;
-	--secondary-text: #858585;
-	--message-box-border: #e9ebf0;
-	--swatch_1: #01362a;
-	--swatch_2: #a7cfca;
-	--swatch_3: #018171;
-	--swatch_4: #00584e;
-}
+/* button styling */
+ .box {
+			/* background-color: #018171; */
+			display: inline-flex;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			height: 30px;
+			
+		}
+ 
+ .box button:hover {
+			background-color:#00584e;
+			}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	color: var(--swatch_1);
-}
+	.edit{
+	
+		display: block;
+		width: 100%;
 
-p {
-	color: var(--primary-text);
-}
+	} 
+	.delete{
+		margin-left: 10px;
+	}
+/* form styling */
+.draft {
+	  
+	  margin-bottom: 80px;
+	  background-color: #e9ebf0;
+	  border-radius: 5px solid rgb(19, 208, 145);
+	  display: flex;
+	  justify-content: space-between;
+	  height: 21%;
+	  align-items: center;
 
-/* cards styling */
-.card {
-}
+ }
 
-/* end of cards styling */
+/* heading styling */
+ h1{
+    font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ p{
+	justify-content: center;
+ }
