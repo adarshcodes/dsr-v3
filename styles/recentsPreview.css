@@ -1,0 +1,53 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.preview--mainDiv
+{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    background-color: rgb(23, 22, 22);
+    color: aliceblue;
+    row-gap: 70px;
+}
+
+.mainDiv--topSection
+{
+    text-align: center;
+}
+
+.mainDiv--midSection
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.midSection--leftPane
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.midSection--rightPane
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.bottomSection--openIssues
+{
+    text-align: center;
+}
+
+.dsrFields
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
